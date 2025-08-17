@@ -1,7 +1,52 @@
-# OneFinity
-A simple python based number guessing game.
+# 🎮 OneFinity
 
-In this game, the program will decide on a number between the range 1 and 10 and you have to guess it. You will also get hints whether you guessed it lower or higher than the program's number.
+A fun and simple python based number and word guesser, powered by [Poetry](https://python-poetry.org/).
 
-# Version 0.2
-Changed file name and made little changes to the code.
+Currently includes:
+- 🔢 **Number Guesser** – Try to guess the secret number between 1 and 10. Get hints if your guess is too high or too low!
+- ✍️ **Word Guesser** – Guess the hidden word with hints.
+
+---
+
+## 🚀 Features
+- Number and word guesser game in one package
+- Clean and simple Python code
+- Easy to run with `poetry`
+- Extendable for more games in the future
+
+---
+
+## 🛠️ Installation
+
+Clone the repository:
+```bash
+git clone https://github.com/padm3-sh/onefinity.git
+cd onefinity
+```
+
+Install dependencies with [Poetry](https://python-poetry.org/):
+```bash
+poetry install
+```
+
+---
+
+## ▶️ How to Play
+
+Run the game launcher:
+```bash
+poetry run onefinity
+```
+
+Choose which game you’d like to play:
+- **1 → Number Guesser**
+- **2 → Word Guesser**
+
+---
+
+# Version 0.3
+- Added Word guesser [limited words]
+- Made miscellaneous changes to code
+
+## 📄 License
+This project is open-source and available under the **MIT License**.
