@@ -1,5 +1,6 @@
 import random
 import os
+from onefinity import random_words
 
 
 def main():
@@ -24,26 +25,29 @@ def number_guesser():
 
     user_guess = int(input("Enter number: "))
     computer_choice = random.randrange(1, 10)
+    attempt = 0
 
     while(user_guess != computer_choice):    
         if(user_guess > computer_choice):
+            attempt += 1
             print("Guessed too high!")
             user_guess = int(input("Guess again: "))
         elif(user_guess < computer_choice):
+            attempt += 1
             print("Guessed too low!")
             user_guess = int(input("Guess again: "))
         else:
             break
         
     print("Congratulations, you won.")
+    print(f"You got {(5 - attempt) * 2} points!")
     
   
 def word_guesser():
     print("The computer will choose a number and give you hints.")
     print("You have to guess it.")
     
-    random_words = ["hello", "world", "panther", "columbia", "zero"]
-    chosen_word = random.choice(random_words)
+    chosen_word = random.choice(random_words.words)
     
     print(f"The word starts with {chosen_word[0]} and ends with {chosen_word[-1]}. The word also has {len(chosen_word)} letters.")
     guessed_word = input("Enter guess: ")

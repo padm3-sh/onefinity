@@ -1,4 +1,7 @@
-# Version 0.3 (Current)
+# Version 0.4 (Current)
+- Added 200 words for the word guesser game
+- Added attempt counter and points calculator for number guesser
+# Version 0.3 
 - Added Word guesser [limited words]
 - Made miscellaneous changes to code
 # Version 0.2
