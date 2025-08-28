@@ -23,7 +23,7 @@ def number_guesser():
     print("The computer will choose a number between 1 - 10")
     print("You have to guess it")
 
-    user_guess = int(input("Enter number: "))
+    user_guess = int(input("Enter your guess: "))
     computer_choice = random.randrange(1, 10)
     attempt = 0
 
@@ -39,15 +39,28 @@ def number_guesser():
         else:
             break
         
-    print("Congratulations, you won.")
+    print("Congratulations, you got it right.")
     print(f"You got {(5 - attempt) * 2} points!")
     
   
 def word_guesser():
-    print("The computer will choose a number and give you hints.")
-    print("You have to guess it.")
+    print("The computer will choose a word and give you hints.")
+    print("You have to guess it.\n")
     
-    chosen_word = random.choice(random_words.words)
+    print("1. Random words")
+    print("2. Animals")
+    print("3. Cities")
+    choice = int(input("Enter: "))
+    
+    if choice == 1:
+        chosen_word = random.choice(random_words.random_words)
+    elif choice == 2:
+        chosen_word = random.choice(random_words.animals)
+    elif choice == 3:
+        chosen_word = random.choice(random_words.cities)
+    else:
+        print("Invalid choice!")
+        exit
     
     print(f"The word starts with {chosen_word[0]} and ends with {chosen_word[-1]}. The word also has {len(chosen_word)} letters.")
     guessed_word = input("Enter guess: ")

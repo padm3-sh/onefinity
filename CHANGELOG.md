@@ -1,3 +1,6 @@
+# Version 0.5 (Current)
+- Added two new words list -- animals and cities
+- Made slight adjustments to the code
 # Version 0.4 (Current)
 - Added 200 words for the word guesser game
 - Added attempt counter and points calculator for number guesser

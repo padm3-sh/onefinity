@@ -44,9 +44,9 @@ Choose which game you’d like to play:
 
 ---
 
-# Version 0.4
-- Added 200 words for the word guesser game
-- Added attempt counter and points calculator for number guesser
+# Version 0.5 (Current)
+- Added two new words list -- animals and cities
+- Made slight adjustments to the code
 
 ## 📄 License
 This project is open-source and available under the **MIT License**.
