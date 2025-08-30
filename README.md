@@ -4,6 +4,7 @@ A fun and simple python based number and word guesser, powered by [Poetry](https
 
 Currently includes:
 - 🔢 **Number Guesser** – Try to guess the secret number between 1 and 10. Get hints if your guess is too high or too low!
+- 🔢 **Number Guesser (Computer)** - In this version, you set the range and the computer will guess the number.
 - ✍️ **Word Guesser** – Guess the hidden word with hints.
 
 ---
@@ -40,13 +41,14 @@ poetry run onefinity
 
 Choose which game you’d like to play:
 - **1 → Number Guesser**
-- **2 → Word Guesser**
+- **2 → Number Guesser (Computer)**
+- **3 → Word Guesser**
 
 ---
 
-# Version 0.5 (Current)
-- Added two new words list -- animals and cities
-- Made slight adjustments to the code
+# Version 0.6
+- Added new game option -- Number Guesser (Computer)
+- Added one new words list -- countries
 
 ## 📄 License
 This project is open-source and available under the **MIT License**.
