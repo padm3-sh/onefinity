@@ -1,4 +1,7 @@
-# Version 0.6 (Current)
+# Version 0.7 (Current)
+- Added hint option for word guesser
+- Made slight code improvements
+# Version 0.6
 - Added new game option -- Number Guesser (Computer)
 - Added one new words list -- countries
 # Version 0.5

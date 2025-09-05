@@ -46,9 +46,9 @@ Choose which game you’d like to play:
 
 ---
 
-# Version 0.6
-- Added new game option -- Number Guesser (Computer)
-- Added one new words list -- countries
+# Version 0.7
+- Added hint option for word guesser
+- Made slight code improvements
 
 ## 📄 License
 This project is open-source and available under the **MIT License**.
