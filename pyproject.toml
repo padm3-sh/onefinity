@@ -1,6 +1,6 @@
 [project]
 name = "onefinity"
-version = "0.7"
+version = "0.8"
 description = "A simple python based number and word guessing game."
 authors = [
     {name = "Shvetank Dattatreya",email = "hello.shvetank@gmail.com"}

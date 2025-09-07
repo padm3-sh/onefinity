@@ -77,24 +77,29 @@ def word_guesser():
     if guessed_word == chosen_word:
         print("Right, you won!")
     else:
-        
-        updated_chosen_word = ""
-        mid = math.floor(len(chosen_word) / 2)
-        
-        for i in range(1, len(chosen_word) - 1):
-            updated_chosen_word += '_'
-        
-        updated_chosen_word = chosen_word[0] + updated_chosen_word + chosen_word[-1]
-        updated_chosen_word = updated_chosen_word[:mid] + chosen_word[mid] + updated_chosen_word[mid+1:]
-        
-        print("Not correct, you got a hint")
-        print(updated_chosen_word)
-        new_guess = input("Guess again: ")
-        
-        if new_guess == chosen_word:
-            print("You got it right.")
+        if len(chosen_word) > 4:        
+            updated_chosen_word = ""
+            mid = math.floor(len(chosen_word) / 2)
+            
+            for i in range(1, len(chosen_word) - 1):
+                updated_chosen_word += '_'
+            
+            updated_chosen_word = chosen_word[0] + updated_chosen_word + chosen_word[-1]
+            updated_chosen_word = updated_chosen_word[:mid] + chosen_word[mid] + updated_chosen_word[mid+1:]
+            
+            print("Not correct, you got a hint")
+            print(updated_chosen_word)
+            new_guess = input("Guess again: ")
+            
+            if new_guess == chosen_word:
+                print("You got it right.")
+            else:
+                print("That is not right.")
+                print(f"The word is {chosen_word}")
         else:
-            print("That is not right.")
+            print("That is not correct.")
+            print("As the word has less than 5 letters, there are no hints.")
+            print("Try the game again!")
             
         
     
