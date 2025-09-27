@@ -46,10 +46,11 @@ Choose which game you’d like to play:
 
 ---
 
-# Version 0.8 (Current)
-- Updated the hinting in word guesser to not give hints for words having less than five letters
-- Updated the word guesser game to show the chosen word by the computer
-- Added License
+# Version 0.9
+- Added birds as word list
+- Made slight code adjustments
+
+Fore more information see [CHANGELOG.md](https://github.com/padm3-sh/onefinity/blob/main/CHANGELOG.md)
 
 ## 📄 License
 This project is open-source and available under the **MIT License**.

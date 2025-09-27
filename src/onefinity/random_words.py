@@ -102,3 +102,31 @@ countries = [
     "venezuela","vietnam","yemen","zambia","zimbabwe"
 ]
 
+birds = [
+    "albatross","amazon_parrot","anhinga","auk","avocet","baboon_bird","bald_eagle","barn_owl","barn_swallow","barred_owl",
+    "bee_eater","bellbird","bittern","black_grouse","black_vulture","blackbird","blue_jay","blue_tit","booby","brambling",
+    "brant_goose","brolga","brown_pelican","budgerigar","buffalo_weaver","bullfinch","bunting","bustard","buzzard","canary",
+    "capercaillie","cardinal","carolina_wren","cassowary","catbird","chaffinch","chicken","chiffchaff","chough","coal_tit",
+    "cockatoo","cockatiel","cormorant","coucal","courser","crane","crested_pigeon","crossbill","crow","cuckoo",
+    "curlew","dark_eyed_junco","darter","dove","dowitcher","duck","dunlin","eagle","egret","emu",
+    "falcon","fieldfare","finch","flamingo","flycatcher","frigatebird","fulmar","gannet","garden_warbler","garganey",
+    "gila_woodpecker","glossy_ibis","goldcrest","golden_eagle","goldfinch","goose","goshawk","grackle","grasshopper_warbler","great_auk",
+    "great_bustard","great_crested_grebe","great_egret","great_horned_owl","great_tit","grebe","green_heron","greenfinch","grosbeak","grouse",
+    "guillemot","gull","guineafowl","harrier","hawk","heron","hoatzin","hoopoe","hornbill","house_martin",
+    "house_sparrow","hummingbird","ibis","indigo_bunting","jackdaw","jacana","jay","junco","kestrel","kingbird",
+    "kingfisher","kite","kiwi","kittiwake","kookaburra","lapwing","lark","linnet","little_egret","lorikeet",
+    "lyrebird","macaw","magpie","mallard","marabou_stork","martin","meadowlark","merganser","mockingbird","moorhen",
+    "motmot","myna","night_heron","nightingale","nighthawk","nuthatch","oriole","osprey","ostrich","owl",
+    "oystercatcher","parakeet","parrot","partridge","peacock","pelican","penguin","petrel","pheasant","pigeon",
+    "pintail","plover","pochard","ptarmigan","puffbird","puffin","quail","quetzal","rail","raven",
+    "red_kite","red_winged_blackbird","redpoll","reed_warbler","roadrunner","robin","rock_dove","roller","rook","rosella",
+    "ruff","sandgrouse","sandpiper","sapsucker","scarlet_macaw","scaup","scoter","secretary_bird","serin","shag",
+    "shearwater","shrike","siskin","skimmer","skua","snipe","snow_bunting","snow_goose","snowy_owl","sparrow",
+    "sparrowhawk","spoonbill","starling","stilt","stint","stork","stonechat","storm_petrel","sunbird","swallow",
+    "swift","tanager","teal","tern","thrasher","thrush","titmouse","toucan","treecreeper","trumpeter_swan",
+    "turaco","turkey","turnstone","vireo","vulture","wagtail","warbler","waxwing","weaver","whimbrel",
+    "whip_poor_will","whistling_duck","whitethroat","wigeon","wild_turkey","willet","wood_duck","woodcock","woodpecker","wren",
+    "yellow_warbler","yellowhammer","yellowthroat","zebra_finch","zenaida_dove","zonetail_hawk","lapland_bunting","saddleback","spoon_billed_sandpiper","bearded_reedling"
+]
+
+

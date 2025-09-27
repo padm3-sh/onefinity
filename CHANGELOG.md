@@ -1,4 +1,7 @@
-# Version 0.8 (Current)
+# Version 0.9 (Current)
+- Added birds as word list
+- Made slight code adjustments
+# Version 0.8
 - Updated the hinting in word guesser to not give hints for words having less than five letters
 - Updated the word guesser game to show the chosen word by the computer
 - Added License

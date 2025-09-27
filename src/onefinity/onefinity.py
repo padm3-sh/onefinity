@@ -5,7 +5,7 @@ from onefinity import random_words
 
 
 def main():
-    print("Welcome to OneFinity - A number guessing game!")
+    print("Welcome to OneFinity - A number and word guessing game!")
     print("1. Number Guesser")
     print("2. Number guesser (Computer)")
     print("3. Word Guesser")
@@ -55,8 +55,9 @@ def word_guesser():
     
     print("1. Random words")
     print("2. Animals")
-    print("3. Cities")
-    print("4. Countries")
+    print("3. Birds")
+    print("4. Cities")
+    print("5. Countries")
     choice = int(input("Enter: "))
     
     if choice == 1:
@@ -64,8 +65,10 @@ def word_guesser():
     elif choice == 2:
         chosen_word = random.choice(random_words.animals)
     elif choice == 3:
-        chosen_word = random.choice(random_words.cities)
+        chosen_word = random.choice(random_words.birds)
     elif choice == 4:
+        chosen_word = random.choice(random_words.cities)
+    elif choice == 5:
         chosen_word = random.choice(random_words.countries)
     else:
         print("Invalid choice!")
